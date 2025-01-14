@@ -45,3 +45,5 @@ D:/python/
 ├── success.html        # Trang chuyển hướng khi đăng nhập thành công
 ├── selenium_script.py  # Mã nguồn chính cho tự động hóa
 └── README.md           # Tài liệu mô tả bài toán
+## Đường dẫn Chatgpt
+https://chatgpt.com/share/67868065-593c-8006-83ca-531a740079f8
