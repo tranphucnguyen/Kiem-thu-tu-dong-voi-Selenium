@@ -27,16 +27,15 @@ Dự án này sử dụng **Selenium** để tự động hóa quá trình đăn
 
 
 ## Kết quả thực nghiệm
-![Uploading image.png…]()
-
-
-
+![image](https://github.com/user-attachments/assets/f8165ad1-25ef-410c-b4d9-dfdf7b2d07f3)
+![image](https://github.com/user-attachments/assets/8ff088e6-cd1f-4b33-bfb3-41bc4abe2baa)
 ## Công nghệ sử dụng
 - **Python 3.12**: Ngôn ngữ lập trình chính.
 - **Selenium**: Thư viện tự động hóa trình duyệt.
 - **ChromeDriver**: Công cụ điều khiển trình duyệt Google Chrome.
 - **HTML**: Giao diện đơn giản để thực hiện bài toán.
-
+## Đường dẫn Chatgpt
+https://chatgpt.com/share/67868065-593c-8006-83ca-531a740079f8
 ## Cấu trúc dự án
 ```plaintext
 D:/python/
@@ -45,5 +44,4 @@ D:/python/
 ├── success.html        # Trang chuyển hướng khi đăng nhập thành công
 ├── selenium_script.py  # Mã nguồn chính cho tự động hóa
 └── README.md           # Tài liệu mô tả bài toán
-## Đường dẫn Chatgpt
-https://chatgpt.com/share/67868065-593c-8006-83ca-531a740079f8
+
