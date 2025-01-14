@@ -4,7 +4,12 @@ Mỗi sinh viên dùng câu nhắc sau để có bài tập riêng của mình t
 "Cho tôi một bài tập cho sinh viên học môn kiểm thử về kiểm thử tự động với selenium"
 ## Mô tả bài toán
 Dự án này sử dụng **Selenium** để tự động hóa quá trình đăng nhập vào một trang web (login.html). Mục tiêu là kiểm tra tính năng đăng nhập bằng cách xử lý các trường hợp sau:
-
+## 2.Các bài kiểm thử: 
+- Kiểm thử không nhập email và password
+- Kiểm thử nhập sai email
+- Kiểm thử nhập sai password
+- Kiểm thử nhập sai email và password
+- Kiểm thử nhập đúng email và password
 1. **Form đăng nhập**:
    - Người dùng nhập tài khoản và mật khẩu vào form đăng nhập
    ![image](https://github.com/user-attachments/assets/8ba70dd0-731a-4d12-bba7-3b73a74bce43)
