@@ -27,7 +27,8 @@ Dự án này sử dụng **Selenium** để tự động hóa quá trình đăn
 
 
 ## Kết quả thực nghiệm
-![image](https://github.com/user-attachments/assets/1d1ac712-86bd-4931-b544-2de15ca1609f)
+![Uploading image.png…]()
+
 
 
 ## Công nghệ sử dụng
