@@ -10,6 +10,8 @@ Dự án này sử dụng **Selenium** để tự động hóa quá trình đăn
 - Kiểm thử nhập sai password
 - Kiểm thử nhập sai email và password
 - Kiểm thử nhập đúng email và password
+- Kiểm thử với tài khoản không tồn tại
+- Kiểm thử với  mật khẩu sai nhiều lần
 1. **Form đăng nhập**:
    - Người dùng nhập tài khoản và mật khẩu vào form đăng nhập
    ![image](https://github.com/user-attachments/assets/8ba70dd0-731a-4d12-bba7-3b73a74bce43)
