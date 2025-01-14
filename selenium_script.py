@@ -16,7 +16,10 @@ test_cases = [
     {"email": "wrong@example.com", "password": "123", "expected_error": "Email hoặc mật khẩu không chính xác!"},
     {"email": "test@gmail.com", "password": "wrongpassword", "expected_error": "Email hoặc mật khẩu không chính xác!"},
     {"email": "test@gmail.com", "password": "123", "expected_error": "Email và mật khẩu đúng!"},
+    {"email": "unknown@example.com", "password": "123", "expected_error": "Email hoặc mật khẩu không chính xác!"},  # Tài khoản không tồn tại
+    {"email": "test@gmail.com", "password": "wrongpassword", "expected_error": "Email hoặc mật khẩu không chính xác!"},  # Thử với mật khẩu sai nhiều lần
 ]
+
 
 try:
     for case in test_cases:
