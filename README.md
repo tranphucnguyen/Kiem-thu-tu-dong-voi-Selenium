@@ -4,10 +4,17 @@ Mỗi sinh viên dùng câu nhắc sau để có bài tập riêng của mình t
 "Cho tôi một bài tập cho sinh viên học môn kiểm thử về kiểm thử tự động với selenium"
 ## Mô tả bài toán
 Dự án này sử dụng **Selenium** để tự động hóa quá trình đăng nhập vào một trang web (login.html). Mục tiêu là kiểm tra tính năng đăng nhập bằng cách xử lý các trường hợp sau:
-
+## 2.Các bài kiểm thử: 
+- Kiểm thử không nhập email và password
+- Kiểm thử nhập sai email
+- Kiểm thử nhập sai password
+- Kiểm thử nhập sai email và password
+- Kiểm thử nhập đúng email và password
+- Kiểm thử với tài khoản không tồn tại
+- Kiểm thử với  mật khẩu sai nhiều lần
 1. **Form đăng nhập**:
    - Người dùng nhập tài khoản và mật khẩu vào form đăng nhập
-   ![image](https://github.com/user-attachments/assets/e1ca7ee6-ff0c-48de-bac2-12e37a0e25a2)
+   ![image](https://github.com/user-attachments/assets/8ba70dd0-731a-4d12-bba7-3b73a74bce43)
    ![image](https://github.com/user-attachments/assets/6db74c11-3de1-470c-bb08-3d9768dc0318)
 
 3. **Đăng nhập thành công**:
@@ -16,12 +23,13 @@ Dự án này sử dụng **Selenium** để tự động hóa quá trình đăn
    ![image](https://github.com/user-attachments/assets/7274eb46-33d6-45bb-921b-991398f20241)
     
 3. **Xử lý selenium**:
-   ![image](https://github.com/user-attachments/assets/5befde2b-f8f4-45a9-896b-dd4ae702645f)
-   ![image](https://github.com/user-attachments/assets/80d67268-335d-4dd2-b5ec-04974efdb25b)
-   ![image](https://github.com/user-attachments/assets/2f8e73d5-b63b-4e65-b796-2115d9723b45)
+   ![image](https://github.com/user-attachments/assets/ac60429e-68a3-4b47-bda2-730b247a6cbb)
+
 
 ## Kết quả thực nghiệm
-![image](https://github.com/user-attachments/assets/afeac55c-7c94-4794-b8da-75f5740d05a5)
+![Uploading image.png…]()
+
+
 
 ## Công nghệ sử dụng
 - **Python 3.12**: Ngôn ngữ lập trình chính.
