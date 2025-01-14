@@ -8,6 +8,8 @@ Dự án này sử dụng **Selenium** để tự động hóa quá trình đăn
 1. **Form đăng nhập**:
    - Người dùng nhập tài khoản và mật khẩu vào form đăng nhập
    ![image](https://github.com/user-attachments/assets/e1ca7ee6-ff0c-48de-bac2-12e37a0e25a2)
+   ![image](https://github.com/user-attachments/assets/6db74c11-3de1-470c-bb08-3d9768dc0318)
+
 3. **Đăng nhập thành công**:
    - Người dùng nhập đúng email và mật khẩu hợp lệ, hệ thống chuyển hướng tới `success.html`.
    ![image](https://github.com/user-attachments/assets/49802591-4158-4e18-bce9-eac7f016d02e)
