@@ -1,4 +1,3 @@
-<!-- login.html -->
 <html>
 <head>
     <title>Đăng nhập</title>
@@ -15,19 +14,34 @@
     <script>
         document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault(); // Ngừng hành động mặc định của form
-
+    
             var email = document.getElementById('email').value;
             var password = document.getElementById('password').value;
-
+    
+            // Kiểm tra nếu email hoặc mật khẩu bị bỏ trống
+            if (!email || !password) {
+                document.getElementById('errorMsg').style.display = 'block';
+                document.getElementById('errorMsg').innerText = "Vui lòng nhập email và mật khẩu!";
+                return;
+            }
+    
+            // Kiểm tra định dạng email
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                document.getElementById('errorMsg').style.display = 'block';
+                document.getElementById('errorMsg').innerText = "Email không hợp lệ!";
+                return;
+            }
+    
+            // Kiểm tra thông tin đăng nhập chính xác
             if (email === 'test@gmail.com' && password === '123') {
-                // Đăng nhập thành công, chuyển hướng đến trang success.html
                 window.location.href = "success.html";
             } else {
-                // Nếu đăng nhập thất bại, hiển thị thông báo lỗi
                 document.getElementById('errorMsg').style.display = 'block';
                 document.getElementById('errorMsg').innerText = "Email hoặc mật khẩu không chính xác!";
             }
         });
     </script>
+    
 </body>
 </html>
